@@ -11,11 +11,11 @@ function addNumbers(sum, numsLeft, completionCallback) {
     // console.log(`${rl}`)
     if (numsLeft > 0) {
         rl.question("Put in a number", (answer) => {
-            
+
             let num = parseInt(answer);
             sum += num;
             console.log(`${sum}`);
-            addNumbers(sum, numsLeft-1, completionCallback);
+            addNumbers(sum, numsLeft - 1, completionCallback);
         });
     };
 
