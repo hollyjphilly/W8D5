@@ -7,12 +7,12 @@ class Clock {
         this.hours = this.date.getHours();
         this.minutes = this.date.getMinutes();
         this.seconds = this.date.getSeconds();
-        
+
         // 3. Call printTime.
         this.printTime();
 
         // 4. Schedule the tick at 1 second intervals.
-        
+
         // this._tick.call()
         debugger
         setInterval(this._tick.bind(this), 1000);
@@ -31,10 +31,10 @@ class Clock {
         this.hours = this.date.getHours();
         this.minutes = this.date.getMinutes();
         this.seconds = this.date.getSeconds();
-        
+
         // 2. Call printTime.
         this.printTime();
     }
 }
 
-const clock = new Clock();
+// const clock = new Clock();
