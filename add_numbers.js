@@ -8,7 +8,7 @@ const rl = readline.createInterface({
 });
 
 function addNumbers(sum, numsLeft, completionCallback) {
-    // console.log(`${rl}`)
+    
     if (numsLeft > 0) {
         rl.question("Put in a number", (answer) => {
 
